@@ -67,3 +67,17 @@ visited[source] = true;
 
 - **Space Complexity:** O(V + E)  
   For storing the graph as an adjacency list and the visited array.
+
+## DFS vs BFS
+
+- Both DFS and BFS can solve this. But BFS is preferred. We just need any valid path, not all paths.
+
+### BFS vs DFS
+
+| Graph Type     |  BFS                                 |  DFS                                 |
+|----------------|--------------------------------------------------|------------------------------------------------|
+| **Wide, Shallow** | Finds goal early by checking many neighbors    | May go down wrong paths before backtracking    |
+| **Deep, Narrow**  | May consume more memory traversing wide levels | Can get stuck deep before finding destination  |
+  
+
+  
