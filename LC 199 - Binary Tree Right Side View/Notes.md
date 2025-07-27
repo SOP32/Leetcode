@@ -19,11 +19,7 @@ Because we're going right-first, the first node at each level is the **rightmost
 
 ### 🔄 Example
 
-  1
- / \
-2   3
- \    \
-  5    4
+<pre> 1 / \ 2 3 \ \ 5 4 </pre>
 
 
 - Level 0 → 1  
