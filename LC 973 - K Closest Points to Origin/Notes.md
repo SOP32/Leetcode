@@ -7,7 +7,7 @@ This solution finds the `k` closest points to the origin `(0,0)` from a list of 
 ### ✅ Key Steps:
 
 #### 1. Compute Distance
-- Use the formula `√(x² + y²)` to compute the Euclidean distance from each point to the origin.
+- Use the formula `x² + y²` to compute the Euclidean distance from each point to the origin.
 - Store distances in a `Map<Integer, Double>` where:
   - **Key**: Index of the point in the `points` array
   - **Value**: Distance from the origin
