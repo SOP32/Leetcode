@@ -70,7 +70,7 @@ visited[source] = true;
 
 ## DFS vs BFS
 
-- Both DFS and BFS can solve this. But BFS is preferred. We just need any valid path, not all paths.
+- Both DFS and BFS can solve this. But BFS is preferred in this problem. We just need any valid path, not all paths.
 
 | Graph Type     |  BFS                                 |  DFS                                 |
 |----------------|--------------------------------------------------|------------------------------------------------|
