@@ -72,8 +72,6 @@ visited[source] = true;
 
 - Both DFS and BFS can solve this. But BFS is preferred. We just need any valid path, not all paths.
 
-### BFS vs DFS
-
 | Graph Type     |  BFS                                 |  DFS                                 |
 |----------------|--------------------------------------------------|------------------------------------------------|
 | **Wide, Shallow** | Finds goal early by checking many neighbors    | May go down wrong paths before backtracking    |
