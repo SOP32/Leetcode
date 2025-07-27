@@ -17,19 +17,6 @@ Because we're going right-first, the first node at each level is the **rightmost
 
 ---
 
-### 🔄 Example
-
-<pre> 1 / \ 2 3 \ \ 5 4 </pre>
-
-
-- Level 0 → 1  
-- Level 1 → 3
-- Level 2 → 4  
-
-✅ Output: `[1, 3, 4]`
-
----
-
 ### 🧩 Time and Space Complexity
 
 | Complexity | Value                          |
