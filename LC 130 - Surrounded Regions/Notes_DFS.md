@@ -36,3 +36,23 @@ All `'O'`s that are **connected to the border** (directly or indirectly) must be
 - **Restore `'S'` → `'O'`** (to retain the original `'O'`s connected to the border)
 
 ---
+
+## 📦 Time and Space Complexity
+
+### ⏱️ Time Complexity: `O(m × n)`
+- Each cell is visited **at most once**:
+  - DFS visits connected `'O'`s starting from the border.
+  - Final pass iterates through the entire board.
+- Let `m` = number of rows, `n` = number of columns.
+- ✅ **Total time = O(m × n)**
+
+### 🧠 Space Complexity:
+
+- **In-place modification** of the board → no extra space for the board itself.
+- However, **recursive DFS uses the call stack**:
+  - Worst case (entire board is `'O'`): recursion depth = `O(m × n)`
+  - ⚠️ Risk of **stack overflow** in languages like Java on large boards.
+- ✅ **Total space = O(m × n)** (due to recursion stack)
+
+> 💡 Tip: Use **BFS or iterative DFS** if input size is large to avoid stack overflow.
+
