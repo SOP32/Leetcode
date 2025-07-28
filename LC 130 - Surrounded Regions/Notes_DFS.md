@@ -55,3 +55,6 @@ All `'O'`s that are **connected to the border** (directly or indirectly) must be
 - ✅ **Total space = O(m × n)** (due to recursion stack)
 
 
+---
+DFS visits deeply connected cells first, while BFS processes border-connected 'O's level by level.
+In problems like Surrounded Regions, DFS is faster to write but BFS is safer and more predictable, especially on large boards
