@@ -54,5 +54,4 @@ All `'O'`s that are **connected to the border** (directly or indirectly) must be
   - ⚠️ Risk of **stack overflow** in languages like Java on large boards.
 - ✅ **Total space = O(m × n)** (due to recursion stack)
 
-> 💡 Tip: Use **BFS or iterative DFS** if input size is large to avoid stack overflow.
 
