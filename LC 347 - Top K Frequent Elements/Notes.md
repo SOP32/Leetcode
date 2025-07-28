@@ -10,16 +10,6 @@ To find the **top K most frequent elements** in an array.
 
 ---
 
-## 🔍 Why Ascending Order?
-
-```java
-PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> map.get(a) - map.get(b));
-
-- This comparator ensures the element with the lowest frequency is at the top of the heap.
-- That makes it easy to remove the least useful (least frequent) element when the heap becomes too large.
-
----
-
 ## ⏱️ Time and Space Complexity
 
 ### Time Complexity:  
@@ -32,3 +22,14 @@ PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> map.get(a) - map.get(b
 **O(n)**  
 - `O(n)` for frequency map  
 - `O(k)` for heap and result → total: **O(n)**
+
+---
+
+## 🔍 Why Ascending Order?
+
+```java
+PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> map.get(a) - map.get(b));
+
+- This comparator ensures the element with the lowest frequency is at the top of the heap.
+- That makes it easy to remove the least useful (least frequent) element when the heap becomes too large.
+
